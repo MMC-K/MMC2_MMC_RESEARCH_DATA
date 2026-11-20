@@ -11,12 +11,14 @@
 | 답변이 **실제 이미지 근거를 사용하는지** 학습 | [Image Grounding Preference](https://huggingface.co/datasets/KETI-NLP/image-grounding-preference) (**비공개**) | WebQA 기반 한국어 질문에 대해 근거 사진이 있는 경우와 없는 경우의 선호·비선호 답변쌍 | 선호쌍 3,980건 |
 | **한국 문화유산 사진 질의응답과 환각 완화** | [Korean Heritage VQA DPO](https://huggingface.co/datasets/KETI-NLP/korean-heritage-vqa-dpo-kogl1) | 국가유산포털의 공공누리 제1유형 원본 사진을 참조하는 질문, 선호·비선호 답변과 오답 이유 | 선호쌍 542,075건 |
 | **이미지 속 한글 읽기(OCR)** 자료 구성 | [Korean OCR SFT Recipe](https://huggingface.co/datasets/KETI-NLP/korean-ocr-sft-recipe) | AI Hub 원천 이미지·라벨을 로컬에서 OCR 질문·답변과 학습용 JSONL로 변환하는 코드·안내 | **레시피만 제공**, 게시된 학습 레코드 0건 |
+| **학술 후속 질문 응답과 개념 판별** | [Academic QA·MCQ](https://huggingface.co/datasets/KETI-NLP/korean-academic-qa-mcq) (**비공개**) | 학술 서적을 바탕으로 만든 한국어·영어 2턴 질의응답과 5지선다 문항·해설 | QA 4,622항목, MCQ 3,381항목; 한·영 16,006행 |
 
 ## 사용 전 확인
 
 - 이미지가 필요한 자료도 대부분 사진 파일은 포함하지 않습니다. 각 Hugging Face 카드에 적힌 원천 제공처와 이미지 준비 절차를 확인해 주세요.
 - OCR 저장소는 학습 데이터 다운로드용이 아닙니다. AI Hub 원천 **이미지와 라벨을 모두** 별도로 확보한 뒤 제공된 코드를 로컬에서 실행해야 합니다.
 - 데이터별 이용 조건과 재배포 범위는 서로 다릅니다. 실제 사용 전 각 카드의 출처·이용 조건을 확인해 주세요.
+- Academic QA·MCQ는 비공개 연구용 자료입니다. 저장소 접근 권한이 있는 사용자만 데이터와 문서를 볼 수 있습니다.
 
 수량은 **2026-11-20**에 각 Hugging Face 데이터셋 카드를 확인한 기준입니다.
 
